@@ -474,6 +474,67 @@ section.rentals p{
 .rentals a {
     color: #2ea3f2;
 }
+/* ..........................event sec................. */
+.events .nav-item > .nav-link {
+    border: 1px solid #2d2926;
+    border-radius: 100px;
+    margin: 0 10px;
+    background: #2d2926;
+    font-size: 18px;
+    padding: 10px 40px;
+    min-width: 170px;
+}
+.events .nav{
+    width: 100%;
+}
+.events table th{
+    padding: 20px;
+}
+.events{
+    padding: 80px 0;
+}
+.schedule-heading{
+    margin-bottom: 30px;
+}
+.events .nav-tabs .nav-link.active {
+    color: #000;
+    background-color: #f7941d;
+    border-radius: 100px;
+    margin: 0 10px;
+    border-color: #f7941d;
+}
+.events .nav-item > .nav-link:hover {
+    color: #fff;
+    border-color: #2d2926;
+}
+.events .nav-item > .nav-link.active:hover {
+    color: #000;
+    border-color: #f7941d;
+}
+.events .nav-tabs{
+    border: none;
+    margin-bottom: 40px;
+}
+.events .nav-link{
+    color: #fff;
+}
+.schedule-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: background-color ease-in-out 0.3s;
+}
+.schedule-item:not(:last-child) {
+    border-bottom: 1px solid #c5c5c5;
+}
+.schedule-item:hover {
+    background-color: #f2dfce;
+}
+.schedule-item h4, .schedule-item h4 > a {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0e1b4d;
+}
 @media only screen and (max-width: 1200px){
     .container {
         max-width: 95% !important;
@@ -553,6 +614,9 @@ section.rentals p{
     ul.footer_links{
         flex-wrap: wrap;
     }
+    .schedule-item time {
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 768px){
     .fixed-top{
@@ -605,6 +669,27 @@ section.rentals p{
     .events-content {
         padding: 30px 0;
     }
+    .schedule-item h4, .schedule-item h4 > a {
+        margin-top: 5px;
+        line-height: 22px;
+    }
+    .events {
+        padding: 40px 0;
+    }    
+    .schedule-item time {
+        font-size: 16px;
+    }
+    .events .nav-tabs .nav-link.active, .events .nav-item > .nav-link {
+        margin: 0 5px;
+    }
+    .events .nav-item > .nav-link {
+        font-size: 14px;
+        padding: 10px 30px;
+        min-width: 130px;
+    }
+    .events .nav-tabs {
+        margin-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 600px){
     .hotel_details .col-4{
@@ -626,5 +711,16 @@ section.rentals p{
 @media only screen and (max-width: 480px){
     .hotel-name{
         font-size: 18px;
+    }
+    .events .nav-tabs {
+        display: block;
+    }
+    .events .nav-item:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .events .nav-item > .nav-link {
+        font-size: 16px;
+        padding: 12px 30px;
+        min-width: inherit;
     }
 }
