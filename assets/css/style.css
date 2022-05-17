@@ -5,7 +5,7 @@ body {
     max-width: 1080px !important;
     margin: 0 auto;
 }
-h1, h2, h3, h4, h5, h6, p, a, li{
+h1, h2, h3, h4, h5, h6, p, a, li, time{
     font-family: 'Poppins', sans-serif;
 }
 img {
@@ -522,6 +522,7 @@ section.rentals p{
     padding-top: 20px;
     padding-bottom: 20px;
     transition: background-color ease-in-out 0.3s;
+    align-items: center;
 }
 .schedule-item:not(:last-child) {
     border-bottom: 1px solid #c5c5c5;
@@ -615,7 +616,7 @@ section.rentals p{
         flex-wrap: wrap;
     }
     .schedule-item time {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 768px){
