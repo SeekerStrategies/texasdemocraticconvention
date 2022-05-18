@@ -618,6 +618,14 @@ section.rentals p{
     .schedule-item time {
         font-size: 14px;
     }
+    nav ul li.nav-item:not(:last-child) {
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 810px){
+    .footer_links li {
+        padding: 5px 12px;
+    }
 }
 @media only screen and (max-width: 768px){
     .fixed-top{
