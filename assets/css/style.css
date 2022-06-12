@@ -91,7 +91,8 @@ header .navbar-nav .nav-link:hover:before, header .navbar-nav .active .nav-link:
     right: 0;
 }
 nav ul li.nav-item:not(:last-child){
-    padding-right: 22px;
+    padding-right: 20px;
+    margin-bottom: 3px;
 }
 .header__menu{
     height: 80px;
@@ -341,6 +342,10 @@ footer{
     background-color: #f2dfce;
     padding: 65px 0;
 }
+.event_details{
+    padding-top: 160px !important;
+}
+
 .events-content .container{
     max-width: 800px !important;
     margin: 0 auto;
@@ -536,6 +541,17 @@ section.rentals p{
     font-weight: 600;
     color: #0e1b4d;
 }
+ul.navbar-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dropdown-menu[data-bs-popper]{
+    right: 0 !important;
+    left: auto!important;
+}
+.dropdown-item{
+    font-size: 12px;
+}
 @media only screen and (max-width: 1200px){
     .container {
         max-width: 95% !important;
@@ -543,6 +559,15 @@ section.rentals p{
     }
     section.office__details .col:not(:last-child) {
         margin-right: 20px;
+    }
+    nav ul li.nav-item:not(:last-child){
+        padding-right: 15px;
+    }
+   
+}
+@media only screen and (max-width: 1100px){
+    nav ul li.nav-item a.nav-link {
+        font-size: 14px;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -566,6 +591,46 @@ section.rentals p{
     }
     tbody.col{
         width: 33%;
+    }
+}
+@media only screen and (max-width: 990px){
+    .navbar-expand-md .navbar-collapse.collapse:not(.show) {
+        display: none !important;
+    }
+
+    .navbar-expand-md .navbar-collapse.collapsing, .navbar-expand-md .navbar-collapse.collapse.show {
+        display: block !important;
+    }
+    .navbar-expand-md .navbar-toggler{
+        display: block !important;
+    }
+    .navbar-expand-md .navbar-nav {
+        flex-direction: column !important;
+    }
+    .navbar-collapse{
+        flex-basis: 100% !important;
+    }
+
+    nav ul li.nav-item:not(:last-child) {
+        padding: 0;
+    }
+    nav ul li.nav-item a.nav-link {
+        padding: 10px 0 !important;
+    }
+    nav ul li.nav-item:not(:last-child) a.nav-link {
+        border-bottom: 1px solid rgba(0,0,0,.07);
+    }
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    header .navbar-nav .nav-link:hover:before, header .navbar-nav .active .nav-link:before{
+        display: none;
+    }
+    .navbar>.container{
+        flex-wrap: wrap !important;
+    }
+    .fixed-top{
+        background-color: #f2dfce;
     }
 }
 @media only screen and (max-width: 980px){
@@ -619,8 +684,9 @@ section.rentals p{
         font-size: 14px;
     }
     nav ul li.nav-item:not(:last-child) {
-        padding-right: 15px;
+        padding-right: 20px;
     }
+
 }
 @media only screen and (max-width: 810px){
     .footer_links li {
@@ -628,9 +694,6 @@ section.rentals p{
     }
 }
 @media only screen and (max-width: 768px){
-    .fixed-top{
-        background-color: #f2dfce;
-    }
     .office__details {
         padding: 60px 0 40px 0;
     }
@@ -659,21 +722,6 @@ section.rentals p{
     }
     .footer_links {
         margin: 0 0 15px;
-    }
-    nav ul li.nav-item:not(:last-child) {
-        padding: 0;
-    }
-    nav ul li.nav-item a.nav-link {
-        padding: 10px 0 !important;
-    }
-    nav ul li.nav-item:not(:last-child) a.nav-link {
-        border-bottom: 1px solid rgba(0,0,0,.07);
-    }
-    .navbar-nav {
-        margin-top: 10px;
-    }
-    header .navbar-nav .nav-link:hover:before, header .navbar-nav .active .nav-link:before{
-        display: none;
     }
     .events-content {
         padding: 30px 0;

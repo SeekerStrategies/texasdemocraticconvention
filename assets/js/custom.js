@@ -7,3 +7,10 @@ $(window).scroll(function() {
         $("header").removeClass("sticky_header");
     }
 });
+
+
+// $(document).ready(function(){
+//     $("#kickoff").click(function(){
+//       $(this).hide();
+//     });
+//   });
