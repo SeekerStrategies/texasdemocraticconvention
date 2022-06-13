@@ -97,6 +97,10 @@ nav ul li.nav-item:not(:last-child){
 .header__menu{
     height: 80px;
 }
+.dropdown-toggle::after {
+    margin-left: 0.4em !important;
+    vertical-align: middle !important;
+}
 .banner{
     background-image: radial-gradient(circle at center,#fcedda 0%,rgba(255,255,255,0) 100%),url(../images/erin-hervey-mYfyZ1KbNho-unsplash.jpg)!important;;
     padding: 190px 0 80px 0;
