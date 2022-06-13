@@ -551,8 +551,15 @@ ul.navbar-nav {
 }
 .dropdown-item{
     font-size: 14px;
+    color: #000000 !important;
 }
-
+.nav-link.dropdown-toggle:focus {
+    outline: none !important;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    color: #000000 !important;
+    background: #fcedda !important;
+  }
 @media only screen and (max-width: 990px) and (min-width: 768px) {
     .navbar-expand-md .navbar-nav .dropdown-menu {
         position: inherit !important;
@@ -647,6 +654,9 @@ ul.navbar-nav {
          font-size: 14px !important;
          font-weight: 500 !important;
          padding: 5px 1rem !important;
+     }
+     .dropdown-item:focus, .dropdown-item:hover{
+        background-color: transparent !important;
      }
 }
 @media only screen and (max-width: 980px){
