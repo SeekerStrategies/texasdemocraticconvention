@@ -402,10 +402,10 @@ footer{
 .hotel_content p:last-child{
     margin-bottom: 27px;
 }
-.hotel_details .col-4{
+.hotel_details .col-12{
     margin-bottom: 25px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 .hotel_details-inner{
     border: 2px solid #333;
@@ -594,12 +594,12 @@ ul.navbar-nav {
     .hotels, .media-sec, .rentals, .sponsor__info {
         padding-top: 170px;
     }
-    .hotel_details .col-4 {
-        width: 50%;
-        margin: 0 auto;
-        padding-bottom: 30px;
-        flex: auto;
-        display: block;
+    .hotel_details .col-12 {
+        /* width: 50%;
+        margin: 0 auto; */
+        /* padding-bottom: 30px; */
+        /* flex: auto;
+        display: block; */
     }
     .hotel_details{
         flex-wrap: wrap;
@@ -779,9 +779,9 @@ ul.navbar-nav {
     }
 }
 @media only screen and (max-width: 600px){
-    .hotel_details .col-4{
+    /* .hotel_details .col-4{
         width: 100%;
-    }
+    } */
     .hotel_details .btn{
         padding: 7px 25px;
     }
