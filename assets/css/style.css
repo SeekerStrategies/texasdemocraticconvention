@@ -565,7 +565,7 @@ ul.navbar-nav {
     background: #fcedda !important;
   }
   .entire__schedule {
-    max-width: 20%;
+    max-width: 200px;
     margin: 0 auto;
 }
 .schedule__inner_overview{
@@ -807,6 +807,9 @@ ul.navbar-nav {
     }
     .banner img {
         width: 70%;
+    }
+    .events .nav-item > .nav-link{
+        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 480px){
