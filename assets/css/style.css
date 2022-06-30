@@ -564,6 +564,13 @@ ul.navbar-nav {
     color: #000000 !important;
     background: #fcedda !important;
   }
+  .entire__schedule {
+    max-width: 20%;
+    margin: 0 auto;
+}
+.schedule__inner_overview{
+    margin-bottom: 40px;
+}
 @media only screen and (max-width: 990px) and (min-width: 768px) {
     .navbar-expand-md .navbar-nav .dropdown-menu {
         position: inherit !important;
