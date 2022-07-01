@@ -485,10 +485,10 @@ section.rentals p{
 }
 /* ..........................event sec................. */
 .events .nav-item > .nav-link {
-    border: 1px solid #2d2926;
+    border: 1px solid #212529;
     border-radius: 100px;
     margin: 0 10px;
-    background: #2d2926;
+    background: #212529;
     font-size: 18px;
     padding: 10px 40px;
     min-width: 170px;
@@ -506,7 +506,7 @@ section.rentals p{
     margin-bottom: 30px;
 }
 .events .nav-tabs .nav-link.active {
-    color: #000;
+    color: #212529;
     background-color: #f7941d;
     border-radius: 100px;
     margin: 0 10px;
@@ -514,10 +514,10 @@ section.rentals p{
 }
 .events .nav-item > .nav-link:hover {
     color: #fff;
-    border-color: #2d2926;
+    border-color: #212529;
 }
 .events .nav-item > .nav-link.active:hover {
-    color: #000;
+    color: #212529;
     border-color: #f7941d;
 }
 .events .nav-tabs{
@@ -563,14 +563,20 @@ ul.navbar-nav {
 .dropdown-item:focus, .dropdown-item:hover{
     color: #000000 !important;
     background: #fcedda !important;
-  }
-  .entire__schedule {
+}
+.entire__schedule {
     max-width: 200px;
     margin: 0 auto;
 }
 .schedule__inner_overview{
     margin-bottom: 40px;
 }
+.entire__schedule .btn {
+    background: #212529;
+    border-color: #212529 !important;
+    color: #fff !important;
+}
+
 @media only screen and (max-width: 990px) and (min-width: 768px) {
     .navbar-expand-md .navbar-nav .dropdown-menu {
         position: inherit !important;
