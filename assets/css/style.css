@@ -502,8 +502,9 @@ section.rentals p{
 .events{
     padding: 80px 0;
 }
-.schedule-heading{
+.sec__detail{
     margin-bottom: 30px;
+    margin-top: 50px;
 }
 .events .nav-tabs .nav-link.active {
     color: #212529;
@@ -567,9 +568,6 @@ ul.navbar-nav {
 .entire__schedule {
     max-width: 200px;
     margin: 0 auto;
-}
-.schedule__inner_overview{
-    margin-bottom: 40px;
 }
 .entire__schedule .btn {
     background: #212529;
