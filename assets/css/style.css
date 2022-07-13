@@ -103,7 +103,7 @@ nav ul li.nav-item:not(:last-child){
 }
 .banner{
     background-image: radial-gradient(circle at center,#fcedda 0%,rgba(255,255,255,0) 100%),url(../images/erin-hervey-mYfyZ1KbNho-unsplash.jpg)!important;;
-    padding: 190px 0 80px 0;
+    padding: 130px 0 80px 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -573,6 +573,11 @@ ul.navbar-nav {
     background: #212529;
     border-color: #212529 !important;
     color: #fff !important;
+}
+.live__stream iframe{
+    position:absolute;
+    left: 0;
+    right: 0;
 }
 
 @media only screen and (max-width: 990px) and (min-width: 768px) {
