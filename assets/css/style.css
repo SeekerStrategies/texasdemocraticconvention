@@ -578,6 +578,7 @@ ul.navbar-nav {
     position:absolute;
     left: 0;
     right: 0;
+    border-radius: 15px;
 }
 
 @media only screen and (max-width: 990px) and (min-width: 768px) {
